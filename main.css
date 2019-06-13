@@ -11,7 +11,7 @@
         src: url(CODE_Light.otf);
         font-family: codelight;
 }
-h1{
+.header{
 	text-align: center;
         font-family: codelight, sans-serif;
         font-size: 120px;
