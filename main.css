@@ -1,0 +1,19 @@
+*{
+        margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+@font-face{
+        src: url(CODE_Light.otf);
+        font-family: codelight;
+}
+h1{
+        font-family: codelight;
+        font-size: 40px;
+	font-weight: 400;
+	color: #17191A;
+}
