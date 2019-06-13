@@ -7,14 +7,19 @@
 	vertical-align: baseline;
 	background: transparent;
 }
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
 @font-face{
         src: url(CODE_Light.otf);
         font-family: codelight;
 }
 h1{
-	position: absolute;
+	text-align: center;
         font-family: codelight, sans-serif;
-        font-size: 40px;
+        font-size: 80px;
 	font-weight: 400;
 	color: #17191A;
 }
