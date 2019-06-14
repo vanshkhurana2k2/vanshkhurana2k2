@@ -11,10 +11,20 @@
         src: url(CODE_Light.otf);
         font-family: codelight;
 }
+@font-face{
+	src: url(TeXGyreAdventor/texgyreadventor-bold.otf);
+	font-family: tex;
 .hdr{
 	text-align: center;
         font-family: codelight, sans-serif;
         font-size: 120px;
 	font-weight: 600;
 	color: #17191A;
+}
+.contactme{
+	text-align: center;
+	font-family: tex, sans-serif;
+	font-size: 80px;
+	font-weight: 400;
+	color: #356DC6
 }
