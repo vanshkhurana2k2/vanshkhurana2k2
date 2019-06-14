@@ -11,10 +11,10 @@
         src: url(CODE_Light.otf);
         font-family: codelight;
 }
-@font-face{
+/*@font-face{
 	src: url(TeXGyreAdventor/texgyreadventor-bold.otf);
 	font-family: tex;
-}
+}*/
 .hdr{
 	text-align: center;
         font-family: codelight, sans-serif;
@@ -22,9 +22,9 @@
 	font-weight: 600;
 	color: #17191A;
 }
-.contact-info{
+/*.contact-info{
 	text-align: center;
 	font-family: tex, sans-serif;
 	font-size: 80px;
 	font-weight: 400;
-}
+}*/
