@@ -18,3 +18,15 @@
 	font-weight: 600;
 	color: #17191A;
 }
+@font-face{
+	src: url(TeXGyreAdventor/texgyreadventor-bold.otf);
+	font-family: gyre;
+}
+.options{
+	text-align: center;
+	font-family: gyre, sans-serif;
+	font-size: 80px;
+	font-weight: 400;
+	color: #17191A;
+}
+.
