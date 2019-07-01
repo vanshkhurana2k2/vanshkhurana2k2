@@ -29,4 +29,17 @@
 	font-weight: 200;
 	color: #17191A;
 }
-.
+.navmessage{
+	text-align: center;
+	font-family: gyre, sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: #17191A;
+}
+.nav{
+	text-align: center;
+	font-family: codelight, sans-serif;
+	font-size: 90px;
+	font-weight: 400;
+	color: #17191A;
+}
