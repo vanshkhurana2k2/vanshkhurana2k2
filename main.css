@@ -12,59 +12,59 @@
     		transform: scale(0.1);
     		opacity: 0;
   	}
-  	75% {
+  75% {
     		transform: scale(1);
-		opacity: 1;
-        	color: black;
-  	}
-  	76% {
-      		color: midnightblue;
-  	}
-  	77% {
-    		color: navy;
-  	}
-  	78% {
+		    opacity: 1;
+        color: black;
+  }
+  76% {
+      color: midnightblue;
+  }
+  77% {
+    color: navy;
+  }
+  78% {
 		color: darkblue;
 	}
-  	79% {
-    		color: mediumblue;
-  	}
-  	80% {
-    		color: blue;
-  	}
+  79% {
+    color: mediumblue;
+  }
+  80% {
+    color: blue;
+  }
 	81%{
 		color: royalblue;
 	}
-  	82%{
-    		color: dodgerblue;
-  	}
-  	85%{
-    		color: deepskyblue;
-  	}
-  	87%{
-    		color: dodgerblue;
-  	}
-  	89%{
-    		color: royalblue;
-  	}
-  	91%{
-    		color: blue;
-  	}
-  	93%{
-    		color: mediumblue;
-  	}
-  	95%{
-    		color: darkblue;
-  	}
-  	97%{
-    		color: navy;
-  	}
-  	99%{
-    		color: midnightblue;
-  	}
-  	100%{
-    		color: black;
-  	}
+  82%{
+    color: dodgerblue;
+  }
+  85%{
+    color: deepskyblue;
+  }
+  87%{
+    color: dodgerblue;
+  }
+  89%{
+    color: royalblue;
+  }
+  91%{
+    color: blue;
+  }
+  93%{
+    color: mediumblue;
+  }
+  95%{
+    color: darkblue;
+  }
+  97%{
+    color: navy;
+  }
+  99%{
+    color: midnightblue;
+  }
+  100%{
+    color: black;
+  }
 }
 
 @font-face{
@@ -116,9 +116,32 @@
 	text-align: center;
 }
 .title{
-	text-align: center;
-	font-family: gyre, sans-serif;
-	font-size: 60px;
-	font-weight: 200;
-	color: #17191A;
+  text-align: center;
+  font-family: gyre, sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+}
+.fyi{
+  text-align: center;
+  font-family: gyre, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.Chem1{
+  text-align: center;
+  font-family: gyre, sans-serif;
+  font-size: 20px;
+  font-weight: 250;
+}
+.chem-1-labs{
+  text-align: center;
+}
+.APChem{
+  text-align: center;
+  font-family: gyre, sans-serif;
+  font-size: 20px;
+  font-weight: 250;
+}
+.ap-chem-labs{
+  text-align: center;
 }
