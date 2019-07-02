@@ -17,6 +17,11 @@
 		opacity: 1;
   	}
 }
+@keyframes color-change{
+	0% { color: red; }
+   	50% { color: blue; }
+    	100% { color: red; }
+}
 @font-face{
         src: url(CODE_Light.otf);
         font-family: codelight;
@@ -24,6 +29,8 @@
 .hdr{
 	animation-duration: 2s;
 	animation-name: test;
+	animation-duration: 2s;
+	animation-name: color-change;
 	text-align: center;
         font-family: codelight, sans-serif;
         font-size: 120px;
