@@ -12,59 +12,59 @@
     		transform: scale(0.1);
     		opacity: 0;
   	}
-  50% {
+  	75% {
     		transform: scale(1);
-		    opacity: 1;
-        color: black;
-  }
-  53% {
-      color: midnightblue;
-  }
-  56% {
-    color: navy;
-  }
-  59% {
+		opacity: 1;
+        	color: black;
+  	}
+  	76% {
+      		color: midnightblue;
+  	}
+  	77% {
+    		color: navy;
+  	}
+  	78% {
 		color: darkblue;
 	}
-  62% {
-    color: mediumblue;
-  }
-  65% {
-    color: blue;
-  }
-	68%{
+  	79% {
+    		color: mediumblue;
+  	}
+  	80% {
+    		color: blue;
+  	}
+	81%{
 		color: royalblue;
 	}
-  71%{
-    color: dodgerblue;
-  }
-  75%{
-    color: deepskyblue;
-  }
-  78%{
-    color: dodgerblue;
-  }
-  81%{
-    color: royalblue;
-  }
-  84%{
-    color: blue;
-  }
-  87%{
-    color: mediumblue;
-  }
-  90%{
-    color: darkblue;
-  }
-  93%{
-    color: navy;
-  }
-  96%{
-    color: midnightblue;
-  }
-  100%{
-    color: black;
-  }
+  	82%{
+    		color: dodgerblue;
+  	}
+  	85%{
+    		color: deepskyblue;
+  	}
+  	87%{
+    		color: dodgerblue;
+  	}
+  	89%{
+    		color: royalblue;
+  	}
+  	91%{
+    		color: blue;
+  	}
+  	93%{
+    		color: mediumblue;
+  	}
+  	95%{
+    		color: darkblue;
+  	}
+  	97%{
+    		color: navy;
+  	}
+  	99%{
+    		color: midnightblue;
+  	}
+  	100%{
+    		color: black;
+  	}
 }
 
 @font-face{
