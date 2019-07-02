@@ -29,8 +29,7 @@
 .hdr{
 	animation-duration: 2s;
 	animation-name: test;
-	animation-duration: 2s;
-	animation-name: color-change;
+	animation: color-change 1s infinite;
 	text-align: center;
         font-family: codelight, sans-serif;
         font-size: 120px;
