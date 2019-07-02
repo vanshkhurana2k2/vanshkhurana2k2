@@ -12,22 +12,61 @@
     		transform: scale(0.1);
     		opacity: 0;
   	}
-  	50% {
+  50% {
     		transform: scale(1);
-		opacity: 1;
-  	}
-	75% {
-		color: red;
+		    opacity: 1;
+        color: black;
+  }
+  53% {
+      color: midnightblue;
+  }
+  56% {
+    color: navy;
+  }
+  59% {
+		color: darkblue;
 	}
-	100%{
-		color: blue;
+  62% {
+    color: mediumblue;
+  }
+  65% {
+    color: blue;
+  }
+	68%{
+		color: royalblue;
 	}
+  71%{
+    color: dodgerblue;
+  }
+  75%{
+    color: deepskyblue;
+  }
+  78%{
+    color: dodgerblue;
+  }
+  81%{
+    color: royalblue;
+  }
+  84%{
+    color: blue;
+  }
+  87%{
+    color: mediumblue;
+  }
+  90%{
+    color: darkblue;
+  }
+  93%{
+    color: navy;
+  }
+  96%{
+    color: midnightblue;
+  }
+  100%{
+    color: black;
+  }
 }
-@keyframes color-change{
-	0% { color: red; }
-   	50% { color: blue; }
-    	100% { color: red; }
-}
+
 @font-face{
         src: url(CODE_Light.otf);
         font-family: codelight;
@@ -36,8 +75,8 @@
 	animation-duration: 2s;
 	animation-name: test;
 	text-align: center;
-        font-family: codelight, sans-serif;
-        font-size: 120px;
+  font-family: codelight, sans-serif;
+  font-size: 120px;
 	font-weight: 600;
 	color: #17191A;
 }
