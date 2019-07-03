@@ -107,6 +107,7 @@
 }
 .profile{
 	border-radius: 50%;
+  transition: transform 0.5s;
   	display: block;
   	margin-left: auto;
   	margin-right: auto;
@@ -144,4 +145,41 @@
 }
 .ap-chem-labs{
   text-align: center;
+}
+.ICON1{
+  text-align: center;
+  transition: transform 0.5s;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ICON2{
+  text-align: center;
+  transition: transform 0.5s;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ICON3{
+  text-align: center;
+  transition: transform 0.5s;
+  margin-left: auto;
+  margin-left: auto;
+}
+.navigation-menu{
+  transition: transform 1s;
+}
+.ICON1:hover{
+  transform: scale(1.3);
+}
+.ICON2:hover{
+  transform: scale(1.3);
+}
+.ICON3:hover{
+  transform: scale(1.3);
+}
+.navigation-menu:hover{
+  transform: scale(1.2);
+}
+.profile:hover{
+  border-radius: 0%;
+  transform: scale(1.2);
 }
