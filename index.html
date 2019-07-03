@@ -5,37 +5,67 @@
 	<meta charset = "utf-8">
   	<meta name = "viewport" content="width=device.width, initial-scale=1.0">
   	<link rel = "stylesheet" type = "text/css" href = "main.css">
-	
 </head>
+<style>
+	.ICON1:hover{
+		background-color: orchid;
+	}
+	.ICON2:hover{
+		background-color: coral;
+	}
+	.ICON3:hover{
+		background-color: deepskyblue;
+	}
+	.navigation-menu:hover{
+		background-color: LightGray;
+	}
+</style>
 <body>
 	<div class = "hdr">
 		<h1>Vansh Khurana</h1>
 	</div>
-	<div class = "contactme">
-    		<div class = "contact-info">
-      			<a href = "mailto:vanshkhurana2k2@gmail.com">Contact Me Via Email</a>
-    		</div>
-		<br> </br>
-  	</div>
+	<br></br><br></br>
 	<div class = "img">
         	<img class="profile" src="vk.jpg">
 	</div>
-	<br></br>
-	<div class = "nav">
-		<h2>Navigation Menu</h4>
-	</div>
-	<div class = "navmessage">
+	<br></br><br></br>
+	<div class = "navigation-menu">
+		<br></br>
+		<div class = "nav">
+			<h2>Navigation Menu</h4>
+		</div>
+		<div class = "navmessage">
 		<p><em>(Dropdown menu currently not supported on mobile)</em></p><br></br>
+		</div>
+		<div class = "options">
+				<select name = "Navigation" style="width: 500px" style="width: 300px" onchange="window.open(this.value,'','');">
+						<option disabled selected value>---------------------------------------------------------------------------------------</option>
+						<option value="aboutme.html">About Me</option>
+						<option value="mywork.html">My Work</option>
+						<option value="javacademy.github.io">Javacademy</option>
+						<option value="podcast.html">A Sports Podcast?</option>
+				</select>
+				<br></br>
+		</div>
 	</div>
-  	<div class = "options">
-    		<select name = "Navigation" style="width: 500px" style="width: 300px" onchange="window.open(this.value,'','');">
-			<option disabled selected value>---------------------------------------------------------------------------------------</option>
-      			<option value="aboutme.html">About Me</option>
-      			<option value="mywork.html">My Work</option>
-      			<option value="javacademy.github.io">Javacademy</option>
-			<option value="podcast.html">A Sports Podcast?</option>
-    		</select>
-  	</div>
-<br></br><br></br><br></br><br></br>
+	<br></br>
+	<div class = "ICON">
+		<div class = "ICON1">
+				<a href = "https://github.com/vanshkhurana2k2" target = "_blank">
+					<img border = "100" alt = "GitHub" src = "github.png" height = "70" width = "70">
+				</a>
+		</div>
+		<div class = "ICON2">
+				<a href = "https://instagram.com/vanshkhurana2k2" target = "_blank">
+					<img border = "50" alt = "Instagram" src = "instagram.png" height = "70" width = "70">
+				</a>
+		</div>
+		<div class = "ICON3">
+				<a href = "mailto:vanshkhurana2k2@gmail.com" target = "_blank">
+					<img border = "50" alt = "Gmail" src = "gmail.png" height = "70" width = "70">
+				</a>
+		</div>
+	</div>
+	<br></br>
 </body>
 </html>
